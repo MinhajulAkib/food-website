@@ -1,11 +1,14 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
-.header-section h1{
-    font-size: 40px;
-    font-weight: bolder;
+.header-section h1 {
+  font-size: 40px;
+  font-weight: bolder;
 }
 .skip-color {
   color: orange;
@@ -17,7 +20,7 @@ body {
 .content-section {
   width: 50%;
   padding-left: 10%;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 .button {
   text-decoration: none;
@@ -33,4 +36,32 @@ body {
 }
 .content-section img {
   width: 50%;
+}
+.body-section {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+.content-header {
+  text-align: center;
+}
+
+.card {
+    float: left;
+    width: 33.33%;
+    height: 20px;
+}
+.recipe-container::after {
+    content: "";
+    clear: both;
+    height: 20px;
+}
+.recipe-container img{
+    height: 300px;
+    width:400px;
+    margin-left: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
