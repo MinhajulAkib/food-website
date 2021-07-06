@@ -128,14 +128,14 @@ img.about-image {
 .footer-content {
   padding: 30px;
   background-color: #FEF3EC;
-  color: #black;
+  color: black;
   margin: 70px;
 }
 .footer-content-list.float-right {
   padding-right: 20px;
 }
 .footer-content-list.float-left {
-  border-left: 2px solid orangered;
+  border-left: 1px dotted rgb(204, 96, 7);
 }
 .footer-content ul li {
   list-style: none;
@@ -150,7 +150,6 @@ img.about-image {
   margin-left: 38px;
 }
 .footer-content-border {
-  border: 1px solid black;
   display: flex;
   justify-content: center;
 }
