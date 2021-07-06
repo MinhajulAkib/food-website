@@ -127,15 +127,15 @@ img.about-image {
 }
 .footer-content {
   padding: 30px;
-  background-color: #f69107;
-  color: #fff;
+  background-color: #FEF3EC;
+  color: #black;
   margin: 70px;
 }
 .footer-content-list.float-right {
   padding-right: 20px;
 }
 .footer-content-list.float-left {
-  border-left: 1px solid #f2f2f2;
+  border-left: 2px solid orangered;
 }
 .footer-content ul li {
   list-style: none;
@@ -144,6 +144,7 @@ img.about-image {
 .footer-content ul li a {
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
 .footer-title {
   margin-left: 38px;
